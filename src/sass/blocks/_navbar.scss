@@ -1,0 +1,19 @@
+.navbar {
+   display: flex;
+   justify-content: flex-end;
+
+   &__menu {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+   }
+
+   &__item {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 500;
+      color: #515769;
+      text-transform: uppercase;
+      padding: 20px;
+   }
+}

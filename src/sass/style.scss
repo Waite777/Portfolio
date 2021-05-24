@@ -1,0 +1,18 @@
+@import "libs/bootstrap-reboot.min";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700&display=swap");
+
+* {
+   font-family: "Montserrat", sans-serif;
+}
+
+.container {
+   max-width: 1140px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+@import "blocks/navbar";
+@import "blocks/header";
+@import "blocks/subheader";
+@import "blocks/about";
+@import "blocks/skills";

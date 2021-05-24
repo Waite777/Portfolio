@@ -1,0 +1,17 @@
+.subheader {
+   background-color: #fafafa;
+   max-height: 600px;
+
+   &__name {
+      font-size: 70px;
+      font-weight: 700;
+      color: #515769;
+      line-height: 1;
+   }
+
+   &__prof {
+      font-size: 25px;
+      font-weight: 400;
+      color: #a6a7aa;
+   }
+}
