@@ -11,8 +11,15 @@
    margin: 0 auto;
 }
 
+::selection {
+   color: #fff;
+   background: #17bed2;
+   text-shadow: none;
+}
+
 @import "blocks/navbar";
 @import "blocks/header";
 @import "blocks/subheader";
 @import "blocks/about";
 @import "blocks/skills";
+@import "blocks/buttons";

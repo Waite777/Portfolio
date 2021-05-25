@@ -1,0 +1,27 @@
+.about {
+   max-height: 840px;
+   padding: 80px 0 80px 0;
+
+   &__wrapper {
+      display: flex;
+      flex-direction: row;
+   }
+
+   &__title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #515769;
+      margin-bottom: 20px;
+   }
+
+   &__pfoto {
+      padding-right: 30px;
+   }
+
+   &__text {
+      font-size: 16px;
+      font-weight: 300;
+      color: #a6a7aa;
+      margin-bottom: 25px;
+   }
+}
