@@ -1,0 +1,73 @@
+.projects {
+   padding: 60px 0px 70px 0px;
+
+   &__title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #515769;
+      text-transform: uppercase;
+   }
+
+   &__text {
+      font-size: 16px;
+      font-weight: 300;
+      color: #a6a7aa;
+      margin-bottom: 40px;
+   }
+
+   &__box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   &__wrap {
+      max-width: 340px;
+   }
+
+   &__img {
+      width: 340px;
+      margin-bottom: 20px;
+   }
+
+   &__inf {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+
+   &__name {
+      display: inline-block;
+      font-size: 22px;
+      font-weight: 700;
+      color: #515769;
+      margin: 0 0 15px;
+   }
+
+   &__branch {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 400;
+      color: #bfc1c7;
+      text-transform: uppercase;
+      margin-left: 25px;
+   }
+
+   &__more {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #515769;
+
+      &:hover {
+         text-decoration: none;
+         color: #515769;
+      }
+   }
+
+   &__descr {
+      font-size: 16px;
+      font-weight: 300;
+      color: #a6a7aa;
+   }
+}
