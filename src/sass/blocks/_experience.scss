@@ -1,0 +1,50 @@
+.experience {
+   &__wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0 auto;
+   }
+
+   &__learn {
+   }
+
+   &__title {
+      font-size: 30px;
+      font-weight: 700;
+      color: #515769;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+   }
+
+   &__box {
+      max-width: 530px;
+   }
+
+   &__col {
+      display: flex;
+      flex-direction: row;
+
+      &-icon {
+         width: 25px;
+
+         img {
+            height: 20px;
+            width: 100%;
+            margin: 9px 0 0 0;
+         }
+      }
+
+      &-info {
+         margin: 0 10px 0 15px;
+      }
+   }
+
+   &__desc {
+      font-size: 16px;
+      font-weight: 300;
+      color: #a6a7aa;
+      margin-bottom: 25px;
+      max-width: 500px;
+   }
+}
